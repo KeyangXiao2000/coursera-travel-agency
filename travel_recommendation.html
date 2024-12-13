@@ -14,9 +14,11 @@
                 <a href="./travel_recommendation.html" class="sitelink" id="home">Home </a>
                 <a href="./about.html" class="sitelink" id="about">About Us </a>
                 <a href="./contact.html" class="sitelink" id="contact">Contact Us </a>
-                <input type="text" id="destinationSearch" placeholder="What do you want to see?">
-                <button id='btnSearch'>Search</button>
-                <button id='btnReset'>Reset</button>
+                <form>
+                    <input type="text" id="destinationSearch" placeholder="What do you want to see?">
+                    <button id="btnSearch" type="button">Search</button>
+                    <input id="btnReset" type="reset" value="Clear Search">
+                </form>
             </div>
         </nav>
         <section id="intro">
@@ -32,6 +34,8 @@
                 <br>
                 Hope you have a nice day!
             </p>
+        </section>
+        <section id="result">
         </section>
         <script src="./travel_recommendation.js"></script>
     </body>

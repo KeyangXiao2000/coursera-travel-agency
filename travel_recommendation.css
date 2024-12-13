@@ -58,7 +58,8 @@ nav {
     text-align: center;
 }
 
-.all_members {
+.all_members,
+#result {
     display: flex;
     align-items: center;
     margin-left: 1in;
@@ -67,7 +68,8 @@ nav {
     padding: 20px;
 }
 
-.member {
+.member,
+#result div {
     font-style: italic;
     text-align: left;
     width: 21.875rem;
@@ -79,11 +81,16 @@ nav {
     margin: 10px;
     border:1px solid gray;
     font-size: 18px;
-    height:150px
+    height:300px
 }
 
 .member span {
     color: #7600bc;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+#result div img {
+    width: 200px;
+    height: 100px;
 }

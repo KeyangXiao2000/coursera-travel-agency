@@ -30,3 +30,9 @@ function searchCity() {
     })
 }
 btnSearch.addEventListener("click", searchCity);
+
+function clearResult() {
+    const display = document.getElementById("result");
+    display.innerHTML = "";
+}
+btnReset.addEventListener("click", clearResult);
